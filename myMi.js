@@ -1,24 +1,6 @@
 // 默认广告拦截 mrs 地址；Sub-Store 未传参时使用这个地址
 const DEFAULT_AD_RULE_URL = "https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomo.mrs";
 
-// 从 Sub-Store 覆写脚本参数中读取广告拦截 mrs 地址
-function getAdRuleUrl() {
-  const args = globalThis.$arguments || globalThis.$argument || {};
-
-  // 兼容对象形式参数：只读取 adUrl
-  if (typeof args === "object" && args !== null) {
-    return args.adUrl || DEFAULT_AD_RULE_URL;
-  }
-
-  // 兼容字符串形式参数：adUrl=xxx
-  if (typeof args === "string" && args.trim()) {
-    const params = new URLSearchParams(args);
-    return params.get("adUrl") || DEFAULT_AD_RULE_URL;
-  }
-
-  return DEFAULT_AD_RULE_URL;
-}
-
 function main(config) {
   const oldProxies = config.proxies || [];
   const proxyNames = oldProxies.map(p => p.name).filter(Boolean);
@@ -26,7 +8,6 @@ function main(config) {
   const proxyGroupName = "PROXY";
   const autoGroupName = "自动切换";
   const adGroupName = "广告拦截";
-  const adRuleUrl = getAdRuleUrl();
 
   // 基础设置
   config.mode = "rule";
@@ -149,13 +130,13 @@ function main(config) {
   config["rule-providers"] = {
     ...(config["rule-providers"] || {}),
 
-    // 广告拦截 mrs；可通过 Sub-Store 参数 adUrl 自定义
+    // 广告拦截 mrs
     antiAD: {
       type: "http",
       behavior: "domain",
       format: "mrs",
       path: "./ruleset/anti-ad.mrs",
-      url: adRuleUrl,
+      url: DEFAULT_AD_RULE_URL,
       interval: 86400
     },
 
