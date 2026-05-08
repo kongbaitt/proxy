@@ -1,5 +1,5 @@
 // 默认广告拦截 mrs 地址；Sub-Store 未传参时使用这个地址
-const DEFAULT_AD_RULE_URL = "https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomolite.mrs";
+const DEFAULT_AD_RULE_URL = "https://anti-ad.net/mihomo.mrs";
 
 function main(config) {
   const oldProxies = config.proxies || [];
