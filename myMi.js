@@ -1,13 +1,53 @@
 // 默认广告拦截 mrs 地址；Sub-Store 未传参时使用这个地址
 const DEFAULT_AD_RULE_URL = "https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomo.mrs";
 
+// 自动测速地址：用于判断同一服务器内哪个节点当前更可用
+const AUTO_TEST_URL = "https://www.gstatic.com/generate_204";
+
+// 按节点的 server 字段分组，尽量保证自动切换只发生在同一个出口 IP / 同一台服务器内
+function buildServerAutoGroups(proxies, groupPrefix) {
+  const serverMap = new Map();
+
+  for (const proxy of proxies) {
+    if (!proxy || !proxy.name) continue;
+
+    // 大多数订阅里，同一个 server 基本代表同一个服务器 IP 或域名
+    const server = proxy.server || "未知服务器";
+
+    if (!serverMap.has(server)) {
+      serverMap.set(server, []);
+    }
+
+    serverMap.get(server).push(proxy.name);
+  }
+
+  return Array.from(serverMap.entries()).map(([server, names]) => ({
+    name: `${groupPrefix}-${server}`,
+    type: "url-test",
+    proxies: names,
+    url: AUTO_TEST_URL,
+
+    // 手机端保守测速：每 5 分钟测速一次，降低耗电和频繁切换
+    interval: 300,
+    timeout: 2000,
+
+    // 延迟差超过 100ms 才倾向切换，避免同服务器内节点来回跳
+    tolerance: 100,
+
+    // 懒测速：主要在当前分组被使用时测速，减少手机端后台耗电和流量消耗
+    lazy: true
+  }));
+}
+
 function main(config) {
   const oldProxies = config.proxies || [];
   const proxyNames = oldProxies.map(p => p.name).filter(Boolean);
 
   const proxyGroupName = "PROXY";
-  const autoGroupName = "自动切换";
+  const autoGroupPrefix = "自动切换";
   const adGroupName = "广告拦截";
+  const serverAutoGroups = buildServerAutoGroups(oldProxies, autoGroupPrefix);
+  const serverAutoGroupNames = serverAutoGroups.map(group => group.name);
 
   // 基础设置
   config.mode = "rule";
@@ -173,26 +213,17 @@ function main(config) {
 
   // 代理组
   // PROXY 是真正生效的总入口
-  // 平时在 PROXY 里选“自动切换”
-  // 需要固定节点时，在 PROXY 里直接选具体节点
+  // 平时在 PROXY 里选择某个“自动切换-服务器”分组，只在同服务器内自动测速切换
+  // 需要固定节点时，在 PROXY 里也保留具体节点可选
   config["proxy-groups"] = [
     {
       name: proxyGroupName,
       type: "select",
-      proxies: proxyNames.length
-        ? [autoGroupName, ...proxyNames]
+      proxies: serverAutoGroupNames.length
+        ? [...serverAutoGroupNames, ...proxyNames]
         : ["DIRECT"]
     },
-    {
-      name: autoGroupName,
-      type: "fallback",
-      proxies: proxyNames.length ? proxyNames : ["DIRECT"],
-      url: "https://www.gstatic.com/generate_204",
-      interval: 300,
-      timeout: 3000,
-      lazy: true,
-      "max-failed-times": 2
-    },
+    ...serverAutoGroups,
     {
       name: adGroupName,
       type: "select",
