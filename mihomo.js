@@ -1,5 +1,5 @@
 // update: 2026-06-21
-// 简介: https://github.com/echs-top/proxy
+// 简介: https://github.com/kongbaitt/proxy
 
 
 function main(config) {
@@ -8,9 +8,7 @@ function main(config) {
   const domainAnchor = { "type": "http", "interval": 86400, "proxy": "代理连接", "behavior": "domain", "format": "mrs" };
   const directDns = ["https://dns.alidns.com/dns-query#直接连接", "https://doh.pub/dns-query#直接连接&h3=false"];
   const proxyDns = ["https://dns.google/dns-query#代理DNS&ecs=8.8.8.8/24&ecs-override=true", "https://dns.quad9.net/dns-query#代理DNS&ecs=9.9.9.9/24&ecs-override=true"];
-  const balAnchor = { "type": "load-balance", "strategy": "round-robin", "include-all-providers": true, "empty-fallback": "REJECT", "hidden": true };
-  const fallAnchor = { "type": "fallback", "include-all-providers": true, "empty-fallback": "REJECT", "hidden": true };
-  const dlAnchor = { "type": "select", "proxies": ["代理连接", "直接连接", "最低延迟", "故障转移", "香港|故障转移", "台湾|故障转移", "新加坡|故障转移", "日本|故障转移", "美国|故障转移", "德国|故障转移", "英国|故障转移", "荷兰|故障转移", "香港|轮询下载", "新加坡|轮询下载", "日本|轮询下载", "美国|轮询下载"], "include-all-providers": true, "empty-fallback": "REJECT" };
+  const dlAnchor = { "type": "select", "proxies": ["代理连接", "直接连接", "最低延迟"], "include-all-providers": true, "empty-fallback": "REJECT" };
   const originDns = config.dns || {};
   const appendDirectTag = (val) => { if (typeof val === 'string') { return val.split('#')[0] + '#直接连接'; } return val; };
   const formatDnsValues = (dnsValue) => { if (Array.isArray(dnsValue)) return dnsValue.map(appendDirectTag); return appendDirectTag(dnsValue); };
@@ -53,7 +51,7 @@ function main(config) {
     // "secret": "密码",
     // "external-doh-server": "/dns-query",
     // "external-ui": "./zashboard",
-    // 霞鹜文楷：https://github.com/echs-top/proxy/releases/download/zashboard/dist.zip
+    // 霞鹜文楷：https://github.com/kongbaitt/proxy/releases/download/zashboard/dist.zip
     // "external-ui-url": "https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip",
     "profile": { "store-selected": true, "store-fake-ip": true },
     "experimental": { "quic-go-disable-gso": false, "quic-go-disable-ecn": true, "dialer-ip4p-convert": false },
@@ -127,21 +125,21 @@ function main(config) {
       "skip-src-address": ["rule-set:telegram_ip,safe_ip,google_ip,media_ip,direct_ip"]
     },
     "rule-providers": {
-      "ads": { ...domainAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/domain/ads.mrs", "path": "./rules/ads.mrs" },
-      "proxy@direct": { ...domainAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/domain/proxy@direct.mrs", "path": "./rules/proxy@direct.mrs" },
-      "ai": { ...domainAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/domain/ai.mrs", "path": "./rules/ai.mrs" },
-      "download": { ...domainAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/domain/download.mrs", "path": "./rules/download.mrs" },
-      "safe": { ...domainAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/domain/safe.mrs", "path": "./rules/safe.mrs" },
-      "google": { ...domainAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/domain/google.mrs", "path": "./rules/google.mrs" },
-      "media": { ...domainAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/domain/media.mrs", "path": "./rules/media.mrs" },
-      "proxy-lite": { ...domainAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/domain/proxy-lite.mrs", "path": "./rules/proxy-lite.mrs" },
-      "direct-lite": { ...domainAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/domain/direct-lite.mrs", "path": "./rules/direct-lite.mrs" },
-      "dnsmasq-china-lite": { ...domainAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/domain/dnsmasq-china-lite.mrs", "path": "./rules/dnsmasq-china-lite.mrs" },
-      "telegram_ip": { ...ipAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/ip/telegram.mrs", "path": "./rules/telegram_ip.mrs" },
-      "safe_ip": { ...ipAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/ip/safe.mrs", "path": "./rules/safe_ip.mrs" },
-      "google_ip": { ...ipAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/ip/google.mrs", "path": "./rules/google_ip.mrs" },
-      "media_ip": { ...ipAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/ip/media.mrs", "path": "./rules/media_ip.mrs" },
-      "direct_ip": { ...ipAnchor, "url": "https://raw.githubusercontent.com/echs-top/proxy/main/mrs/ip/direct.mrs", "path": "./rules/direct_ip.mrs" }
+      "ads": { ...domainAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/ads.mrs", "path": "./rules/ads.mrs" },
+      "proxy@direct": { ...domainAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/proxy@direct.mrs", "path": "./rules/proxy@direct.mrs" },
+      "ai": { ...domainAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/ai.mrs", "path": "./rules/ai.mrs" },
+      "download": { ...domainAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/download.mrs", "path": "./rules/download.mrs" },
+      "safe": { ...domainAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/safe.mrs", "path": "./rules/safe.mrs" },
+      "google": { ...domainAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/google.mrs", "path": "./rules/google.mrs" },
+      "media": { ...domainAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/media.mrs", "path": "./rules/media.mrs" },
+      "proxy-lite": { ...domainAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/proxy-lite.mrs", "path": "./rules/proxy-lite.mrs" },
+      "direct-lite": { ...domainAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/direct-lite.mrs", "path": "./rules/direct-lite.mrs" },
+      "dnsmasq-china-lite": { ...domainAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/dnsmasq-china-lite.mrs", "path": "./rules/dnsmasq-china-lite.mrs" },
+      "telegram_ip": { ...ipAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/ip/telegram.mrs", "path": "./rules/telegram_ip.mrs" },
+      "safe_ip": { ...ipAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/ip/safe.mrs", "path": "./rules/safe_ip.mrs" },
+      "google_ip": { ...ipAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/ip/google.mrs", "path": "./rules/google_ip.mrs" },
+      "media_ip": { ...ipAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/ip/media.mrs", "path": "./rules/media_ip.mrs" },
+      "direct_ip": { ...ipAnchor, "url": "https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/ip/direct.mrs", "path": "./rules/direct_ip.mrs" }
     },
     "rules": [
       "DST-PORT,5228-5230,直接连接",
@@ -173,31 +171,18 @@ function main(config) {
     },
     "proxies": [{ "name": "IPV4优先", "type": "direct", "udp": true, "ip-version": "ipv4-prefer" },{ "name": "IPV6优先", "type": "direct", "udp": true, "ip-version": "ipv6-prefer" },{ "name": "仅IPV4", "type": "direct", "udp": true, "ip-version": "ipv4" },{ "name": "仅IPV6", "type": "direct", "udp": true, "ip-version": "ipv6" }],
     "proxy-groups": [
-      { "name": "代理连接", "type": "select", "proxies": ["最低延迟", "故障转移", "香港|故障转移", "台湾|故障转移", "新加坡|故障转移", "日本|故障转移", "美国|故障转移", "德国|故障转移", "英国|故障转移", "荷兰|故障转移", "香港|轮询下载", "新加坡|轮询下载", "日本|轮询下载", "美国|轮询下载"], "include-all-providers": true, "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Universal/StreamingSE.png" },
-      { "name": "直接连接", "type": "select", "proxies": ["DIRECT", "IPV4优先", "IPV6优先", "仅IPV4", "仅IPV6"], "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Accommodation/Online_Booking.png" },
-      { "name": "代理DNS", ...dlAnchor, "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Universal/Streaming.png" },
-      { "name": "代理QUIC", "type": "select", "proxies": ["PASS-RULE", "REJECT"], "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Google_Suite/Admin.png" },
-      { "name": "TELEGRAM", ...dlAnchor, "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Social_Media/Telegram.png" },
-      { "name": "国外AI", ...dlAnchor, "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Fitness/Chat.png" },
-      { "name": "下载相关", ...dlAnchor, "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Google_Suite/Drive.png" },
-      { "name": "风控安全", ...dlAnchor, "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Google_Suite/Account.png" },
-      { "name": "GOOGLE", ...dlAnchor, "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Google_Suite/Google.png" },
-      { "name": "海外媒体", ...dlAnchor, "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Universal/Video.png" },
-      { "name": "最低延迟", "type": "url-test", "tolerance": 30, "include-all-providers": true, "empty-fallback": "REJECT", "hidden": true, "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Universal/Auto_Speed.png" },
-      { "name": "故障转移", ...fallAnchor, "filter": "(?i)🇭🇰|香港|\\bHK\\b|\\bhongkong\\b|\\bhong\s?kong\\b|🇸🇬|新加坡|狮城|\\bSG\\b|\\bsingapore\\b|🇯🇵|日本|\\bJP\\b|\\bjapan\\b|🇺🇸|美国|\\bUS\\b|\\bunitedstates\\b|\\bunited\s?states\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Universal/Final.png" },
-      { "name": "香港|故障转移", ...fallAnchor, "filter": "(?i)🇭🇰|香港|\\bHK\\b|\\bhongkong\\b|\\bhong\\s?kong\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Rounded_Rectangle/Hong_Kong.png" },
-      { "name": "台湾|故障转移", ...fallAnchor, "filter": "(?i)🇹🇼|台湾|\\bTW\\b|\\btaiwan\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Rounded_Rectangle/Taiwan.png" },
-      { "name": "新加坡|故障转移", ...fallAnchor, "filter": "(?i)🇸🇬|新加坡|狮城|\\bSG\\b|\\bsingapore\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Rounded_Rectangle/Singapore.png" },
-      { "name": "日本|故障转移", ...fallAnchor, "filter": "(?i)🇯🇵|日本|\\bJP\\b|\\bjapan\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Rounded_Rectangle/Japan.png" },
-      { "name": "美国|故障转移", ...fallAnchor, "filter": "(?i)🇺🇸|美国|\\bUS\\b|\\bunitedstates\\b|\\bunited\\s?states\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Rounded_Rectangle/United_States.png" },
-      { "name": "德国|故障转移", ...fallAnchor, "filter": "(?i)🇩🇪|德国|\\bDE\\b|\\bgermany\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Rounded_Rectangle/Germany.png" },
-      { "name": "英国|故障转移", ...fallAnchor, "filter": "(?i)🇬🇧|英国|\\bUK\\b|\\bGB\\b|\\bunitedkingdom\\b|\\bunited\\s?kingdom\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Rounded_Rectangle/United_Kingdom.png" },
-      { "name": "荷兰|故障转移", ...fallAnchor, "filter": "(?i)🇳🇱|荷兰|\\bNL\\b|\\bnetherlands?\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Rounded_Rectangle/Netherlands.png" },
-      { "name": "香港|轮询下载", ...balAnchor, "filter": "(?i)🇭🇰|香港|\\bHK\\b|\\bhongkong\\b|\\bhong\\s?kong\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Rounded_Rectangle/Hong_Kong.png" },
-      { "name": "新加坡|轮询下载", ...balAnchor, "filter": "(?i)🇸🇬|新加坡|狮城|\\bSG\\b|\\bsingapore\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Rounded_Rectangle/Singapore.png" },
-      { "name": "日本|轮询下载", ...balAnchor, "filter": "(?i)🇯🇵|日本|\\bJP\\b|\\bjapan\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Rounded_Rectangle/Japan.png" },
-      { "name": "美国|轮询下载", ...balAnchor, "filter": "(?i)🇺🇸|美国|\\bUS\\b|\\bunitedstates\\b|\\bunited\\s?states\\b", "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Rounded_Rectangle/United_States.png" },
-      { "name": "GLOBAL", "type": "select", "proxies": ["最低延迟", "故障转移", "香港|故障转移", "台湾|故障转移", "新加坡|故障转移", "日本|故障转移", "美国|故障转移", "德国|故障转移", "英国|故障转移", "荷兰|故障转移", "香港|轮询下载", "新加坡|轮询下载", "日本|轮询下载", "美国|轮询下载", "代理连接", "直接连接", "代理DNS", "代理QUIC", "TELEGRAM", "国外AI", "下载相关", "风控安全", "GOOGLE", "海外媒体"], "include-all-providers": true, "hidden": true, "icon": "https://mihomo.echs.top/img/Hand-Painted-icon/Google_Suite/Browser.png" }
+      { "name": "代理连接", "type": "select", "proxies": ["最低延迟"], "include-all-providers": true, "icon": "https://raw.githubusercontent.com/kongbaitt/proxy/main/img/Hand-Painted-icon/Universal/StreamingSE.png" },
+      { "name": "直接连接", "type": "select", "proxies": ["DIRECT", "IPV4优先", "IPV6优先", "仅IPV4", "仅IPV6"], "icon": "https://raw.githubusercontent.com/kongbaitt/proxy/main/img/Hand-Painted-icon/Accommodation/Online_Booking.png" },
+      { "name": "代理DNS", ...dlAnchor, "icon": "https://raw.githubusercontent.com/kongbaitt/proxy/main/img/Hand-Painted-icon/Universal/Streaming.png" },
+      { "name": "代理QUIC", "type": "select", "proxies": ["代理连接", "REJECT"], "icon": "https://raw.githubusercontent.com/kongbaitt/proxy/main/img/Hand-Painted-icon/Google_Suite/Admin.png" },
+      { "name": "TELEGRAM", ...dlAnchor, "icon": "https://raw.githubusercontent.com/kongbaitt/proxy/main/img/Hand-Painted-icon/Social_Media/Telegram.png" },
+      { "name": "国外AI", ...dlAnchor, "icon": "https://raw.githubusercontent.com/kongbaitt/proxy/main/img/Hand-Painted-icon/Fitness/Chat.png" },
+      { "name": "下载相关", ...dlAnchor, "icon": "https://raw.githubusercontent.com/kongbaitt/proxy/main/img/Hand-Painted-icon/Google_Suite/Drive.png" },
+      { "name": "风控安全", ...dlAnchor, "icon": "https://raw.githubusercontent.com/kongbaitt/proxy/main/img/Hand-Painted-icon/Google_Suite/Account.png" },
+      { "name": "GOOGLE", ...dlAnchor, "icon": "https://raw.githubusercontent.com/kongbaitt/proxy/main/img/Hand-Painted-icon/Google_Suite/Google.png" },
+      { "name": "海外媒体", ...dlAnchor, "icon": "https://raw.githubusercontent.com/kongbaitt/proxy/main/img/Hand-Painted-icon/Universal/Video.png" },
+      { "name": "最低延迟", "type": "url-test", "tolerance": 30, "include-all-providers": true, "empty-fallback": "REJECT", "hidden": true, "icon": "https://raw.githubusercontent.com/kongbaitt/proxy/main/img/Hand-Painted-icon/Universal/Auto_Speed.png" },
+      { "name": "GLOBAL", "type": "select", "proxies": ["最低延迟", "代理连接", "直接连接", "代理DNS", "代理QUIC", "TELEGRAM", "国外AI", "下载相关", "风控安全", "GOOGLE", "海外媒体"], "include-all-providers": true, "hidden": true, "icon": "https://raw.githubusercontent.com/kongbaitt/proxy/main/img/Hand-Painted-icon/Google_Suite/Browser.png" }
     ]
   };
 }

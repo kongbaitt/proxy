@@ -10,7 +10,7 @@ export default {
 
     // 2. 根目录跳转到 GitHub
     if (url.pathname === "/") {
-      return Response.redirect("https://github.com/echs-top/proxy", 302);
+      return Response.redirect("https://github.com/kongbaitt/proxy", 302);
     }
 
     // 3. 处理 CORS OPTIONS 预检请求

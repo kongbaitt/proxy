@@ -16,6 +16,6 @@
 # 根目录重定向
 [[redirects]]
   from = "/"
-  to = "https://github.com/echs-top/proxy"
+  to = "https://github.com/kongbaitt/proxy"
   status = 302
   force = true
