@@ -198,6 +198,7 @@ rlog.popin.cc
 +.adjust.cn
 +.adlive.cn
 +.admon.cn
++.adreal.cn
 +.adsage.cn
 +.adtx2.cn
 +.adups.cn
@@ -688,6 +689,7 @@ lh3.googleadsserving.cn
 +.resu8.hjfile.cn
 +.hjgen.cn
 +.hkkeafj.cn
++.ho521.cn
 +.metrics.hollisterco.cn
 +.om.hotels.cn
 +.hpiekt.cn
@@ -1186,6 +1188,7 @@ telecome.cn
 +.tongji.xinmin.cn
 +.xkmwxwy.cn
 +.xmywlyh.cn
++.xn--m7r781dz66a.cn
 +.xpcwrgy.cn
 +.xryrylt.cn
 +.xueaaaw.cn
@@ -2266,9 +2269,7 @@ nsclick.baidu.com
 +.bannerspace.com
 +.bannerswap.com
 +.midinfo.baofeng.com
-+.a.baomihua.com
 +.djs.baomihua.com
-+.resource.baomihua.com
 +.baremetrics.com
 +.basebanner.com
 +.basketballbelieve.com
@@ -2932,6 +2933,7 @@ toblog.ctobsnssdk.com
 +.d1.dhgate.com
 +.sgtm.dhgate.com
 +.dianomi.com
++.catfront.dianping.com
 +.dianru.com
 +.dicecandies.com
 +.didtheyreadit.com
@@ -2944,7 +2946,6 @@ toblog.ctobsnssdk.com
 +.adserver.digitoday.com
 +.bea-s.dinghuoche.com
 +.resolver.dingtalk.com
-+.stdown.dinju.com
 +.dipan.com
 +.directaclick.com
 +.tr.email.directindustry.com
@@ -3678,6 +3679,7 @@ m-adnet.hiaiabc.com
 +.events-dre.op.hicloud.com
 +.events-drru.op.hicloud.com
 +.logservice-dra.platform.hicloud.com
++.logservice-dre.platform.hicloud.com
 +.highnoongear.com
 +.hightrafficads.com
 +.honorsearch-dra.hiboard.hihonorcloud.com
@@ -4190,6 +4192,7 @@ knicks.jd.com
 +.log-sdk.ksapisrv.com
 +.multi-az-ulog.ksapisrv.com
 +.ulog.ksapisrv.com
++.ulog-sdk.ksapisrv.com
 +.ulogjs.ksapisrv.com
 +.ulogs1.ksapisrv.com
 +.ulogs2.ksapisrv.com
@@ -5455,6 +5458,7 @@ iadctest.qwapi.com
 +.ad.qyer.com
 +.hades.qyer.com
 +.qypaizhuo.com
++.qyxiangr.com
 +.qyxrwl.com
 +.u1.qyxxpd.com
 +.v11-reading-ad.qznovelvod.com
@@ -5793,6 +5797,7 @@ smetrics.samsung.com
 +.ib.snssdk.com
 +.log.snssdk.com
 +.log-hl.snssdk.com
++.log-lf.snssdk.com
 +.log-lq.snssdk.com
 +.mcs.snssdk.com
 +.mercury-sdk.snssdk.com
@@ -6507,6 +6512,7 @@ webview.unityads.unity3d.com
 +.adserver.virginmedia.com
 +.banners.virtuagirlhd.com
 +.cbanners.virtuagirlhd.com
++.tr.email.virtual-expo.com
 +.ad.virtual-nights.com
 +.ads.virtual-nights.com
 +.ads1.virtual-nights.com
@@ -7666,6 +7672,7 @@ m.ad.zhangyue.com
 +.adserve.io
 +.data-reporting.agora.io
 +.logservice.agora.io
++.logservice-asia.agora.io
 +.logservice-rtm.agora.io
 +.report-america.agora.io
 +.report-asia.agora.io
