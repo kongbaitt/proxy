@@ -1,4 +1,3 @@
-+.265.com
 +.appldnld.g.aaplimg.com
 +.iosapps.itunes.g.aaplimg.com
 +.osxapps.itunes.g.aaplimg.com
@@ -33,7 +32,6 @@ communities.apple.com
 +.devstreaming-cdn.apple.com
 discussionschinese.apple.com
 +.init.ess.apple.com
-+.experiments.apple.com
 fides-pol.apple.com
 init.gc.apple.com
 +.static.gc.apple.com
@@ -119,7 +117,6 @@ cdn-cn.apple-mapkit.com
 +.mensura.cdn-apple.com
 +.ml.cdn-apple.com
 +.publicassets.cdn-apple.com
-+.shazam-insights.cdn-apple.com
 +.store.storeimages.cdn-apple.com
 +.updates.cdn-apple.com
 +.updates-http.cdn-apple.com
@@ -155,20 +152,19 @@ mtalk4.google.com
 +.download.tensorflow.google.com
 +.tools.google.com
 +.dg-meta.video.google.com
++.clickserver.googleads.com
 +.clientservices.googleapis.com
 device-provisioning.googleapis.com
 firebaseinstallations.googleapis.com
 +.fontfiles.googleapis.com
 +.fonts.googleapis.com
 +.imasdk.googleapis.com
-+.performanceparameters.googleapis.com
 +.safebrowsing.googleapis.com
 +.tac.googleapis.com
 +.update.googleapis.com
 +.wear.googleapis.com
 +.googleapis-cn.com
 +.googleapps-cn.com
-+.googlesyndication-cn.com
 +.googletraveladservices-cn.com
 +.checkin.gstatic.com
 +.connectivitycheck.gstatic.com
@@ -211,7 +207,6 @@ s2.mzstatic.com
 s3.mzstatic.com
 s4.mzstatic.com
 s5.mzstatic.com
-+.gtm.oasisfeng.com
 +.www.pxcc.com
 +.qiao-cn.com
 *.sharepoint.com
@@ -277,6 +272,5 @@ cl2-cdn.origin-apple.com.akadns.net
 +.gongyichuangyi.net
 +.avail.googleflights.net
 +.qpx.googleflights.net
-+.googleflights-cn.net
 +.recaptcha.net
 +.recaptcha-cn.net
