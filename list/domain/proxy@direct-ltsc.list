@@ -1,3 +1,4 @@
++.265.com
 +.appldnld.g.aaplimg.com
 +.iosapps.itunes.g.aaplimg.com
 +.osxapps.itunes.g.aaplimg.com
@@ -117,6 +118,7 @@ cdn-cn.apple-mapkit.com
 +.mensura.cdn-apple.com
 +.ml.cdn-apple.com
 +.publicassets.cdn-apple.com
++.shazam-insights.cdn-apple.com
 +.store.storeimages.cdn-apple.com
 +.updates.cdn-apple.com
 +.updates-http.cdn-apple.com
@@ -159,6 +161,7 @@ firebaseinstallations.googleapis.com
 +.fontfiles.googleapis.com
 +.fonts.googleapis.com
 +.imasdk.googleapis.com
++.performanceparameters.googleapis.com
 +.safebrowsing.googleapis.com
 +.tac.googleapis.com
 +.update.googleapis.com
@@ -183,7 +186,6 @@ firebaseinstallations.googleapis.com
 +.gvt1-cn.com
 +.beacons2.gvt2.com
 +.beacons3.gvt2.com
-+.gvt2-cn.com
 +.hcaptcha.com
 +.a1.mzstatic.com
 +.a2.mzstatic.com
