@@ -52,7 +52,7 @@ init.gc.apple.com
 +.gsp4-cn.ls.apple.com
 +.gsp5-cn.ls.apple.com
 +.gsp85-cn-ssl.ls.apple.com
-gspe11-2-cn-ssl.ls.apple.com
++.gspe11-2-cn-ssl.ls.apple.com
 gspe12-cn-ssl.ls.apple.com
 +.gspe19-2-cn-ssl.ls.apple.com
 +.gspe19-cn.ls.apple.com
@@ -186,6 +186,7 @@ firebaseinstallations.googleapis.com
 +.gvt1-cn.com
 +.beacons2.gvt2.com
 +.beacons3.gvt2.com
++.gvt2-cn.com
 +.hcaptcha.com
 +.a1.mzstatic.com
 +.a2.mzstatic.com
@@ -209,6 +210,7 @@ s2.mzstatic.com
 s3.mzstatic.com
 s4.mzstatic.com
 s5.mzstatic.com
++.gtm.oasisfeng.com
 +.www.pxcc.com
 +.qiao-cn.com
 *.sharepoint.com
