@@ -25,7 +25,7 @@
 
 裸核：约40～150MB(smart分支占用偏高)
 
-MRS：`948.04KB` `171708` (含dnsmasq-china DNS分流规则)
+MRS：`947.97KB` `171744` (含dnsmasq-china DNS分流规则)
 
 ### 更新日志
 
@@ -49,7 +49,7 @@ dist-lxgwwenkai-only.zip `5.60MB`
 
 - ads：[秋风](https://awavenue.top) + [217heidai](https://github.com/217heidai/adblockfilters)+[PATREON](https://pgl.yoyo.org/adservers/) + [增加](https://github.com/kongbaitt/proxy/blob/main/work/list/ad_add_domain.list) - [删除](https://github.com/kongbaitt/proxy/blob/main/work/list/ad_del_domain.list)
   较精简的国内外去广告域名规则  
-  Update：`2026.10.04` `9197`  
+  Update：`2026.10.05` `9232`  
   规则链接：[list](https://raw.githubusercontent.com/kongbaitt/proxy/main/list/domain/ads.list) / [mrs](https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/ads.mrs)
 
 - proxy@direct：[补充](https://github.com/kongbaitt/proxy/blob/main/work/list/proxy%40direct_domain.list) + [google-cn](https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/google-cn.list) + [apple-cn](https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.list) - '+.cn'
@@ -134,7 +134,7 @@ dist-lxgwwenkai-only.zip `5.60MB`
 
 - direct_ip：cn_ip + 'enhanced-FaaS-in-China_ip' + [private_ip](https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/privateip.list)  
   直连IP规则  
-  Update：`2026.10.04` `10012`  
+  Update：`2026.10.05` `10014`  
   规则链接：[list](https://raw.githubusercontent.com/kongbaitt/proxy/main/list/ip/direct.list) / [mrs](https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/ip/direct.mrs)
 
 谨慎引用！lite规则：
@@ -151,7 +151,7 @@ dist-lxgwwenkai-only.zip `5.60MB`
 
 - dnsmasq-china-lite：'dnsmasq-china' - ads - proxy@direct - proxy - direct  
   精简dnsmasq-china域名规则  
-  Update：`2026.10.04` `96718`  
+  Update：`2026.10.05` `96717`  
   规则链接：[list](https://raw.githubusercontent.com/kongbaitt/proxy/main/list/domain/dnsmasq-china-lite.list) / [mrs](https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/dnsmasq-china-lite.mrs)
 
 更多规则推荐：
