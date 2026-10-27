@@ -217,6 +217,7 @@ rlog.popin.cc
 +.9ics.cn
 +.sifa.aak7.cn
 +.aaoffice.cn
++.metrics.abercrombie.cn
 +.smetrics.abercrombie.cn
 +.umami.kiz.ac.cn
 +.mail.siom.ac.cn
@@ -232,6 +233,7 @@ rlog.popin.cc
 +.adintl.cn
 +.adjust.cn
 +.adlive.cn
++.admate.cn
 +.admon.cn
 +.adreal.cn
 +.ads360.cn
@@ -366,6 +368,7 @@ adx.appsdk.com.cn
 +.ftwo-feedback.autohome.com.cn
 +.ftwo-receiver.autohome.com.cn
 +.pcd.autohome.com.cn
++.pcmx.autohome.com.cn
 +.pvx.autohome.com.cn
 +.rd.autohome.com.cn
 +.rdx.autohome.com.cn
@@ -457,6 +460,8 @@ adx.appsdk.com.cn
 +.sdk.stat.foreign.nearme.com.cn
 +.nuffnang.com.cn
 +.target.nxp.com.cn
++.obs.com.cn
++.obsproject.com.cn
 +.offie-wps.com.cn
 +.ad.ourplay.com.cn
 +.count.pcauto.com.cn
@@ -976,7 +981,6 @@ browser.events.data.msn.cn
 +.nejmqianyan.cn
 +.cart.net.cn
 +.logs.chelaile.net.cn
-+.fanzhuang.net.cn
 +.telemetry.farfetch.net.cn
 +.jdpm.net.cn
 +.luping.net.cn
@@ -1096,6 +1100,7 @@ scs.openspeech.cn
 +.rsvqlz.cn
 +.rui61.cn
 +.rvbztg.cn
++.rvzlobj.cn
 +.rxys.cn
 +.rywnvzd.cn
 +.rz261.cn
@@ -1244,7 +1249,6 @@ telecome.cn
 +.tvabqt.cn
 +.tvdpebx.cn
 +.twdjn.cn
-+.txhywh.cn
 +.txscn.cn
 +.ty.cn
 +.u88.cn
@@ -1411,6 +1415,7 @@ gw6.push.mcp.weibo.cn
 +.yktj.yzz.cn
 +.cdnjs.z-face.cn
 +.zaixianvip.cn
++.ad.zamae.cn
 +.xue.zbyw.cn
 +.zhangyuyidong.cn
 +.www.zhaohainan.cn
@@ -1534,6 +1539,7 @@ adstudio-assets.scdn.co
 +.0l7t5qhb4.com
 +.0lai5bvkg.com
 +.0mkeb9vth.com
++.0nh9bt6v6a.com
 +.0nyzdw2maq.com
 +.0oi1ej7mo.com
 +.0oo9j37xp.com
@@ -1615,7 +1621,7 @@ m1.ad.10010.com
 +.httpdns.music.163.com
 +.ipv4.music.163.com
 +.netapm.music.163.com
-sentry.music.163.com
++.sentry.music.163.com
 +.nex.163.com
 +.log.study.163.com
 +.temp.163.com
@@ -1871,6 +1877,7 @@ sentry.music.163.com
 +.3is34bpqs4.com
 +.3iulae112b.com
 +.3j4vjpx7k.com
++.3jkb97w0tp.com
 +.3k2frl8r79.com
 +.3lbqpzrlmz.com
 +.3lift.com
@@ -3221,6 +3228,7 @@ ad.player.baidu.com
 +.baidustatic.com
 +.baifendian.com
 +.ad.baihemob.com
++.sentry.baijia.com
 +.baixing.com
 +.bakbitionb.com
 +.newads.bangbros.com
@@ -3238,6 +3246,7 @@ ad.player.baidu.com
 +.bannerswap.com
 +.active.baofeng.com
 +.midinfo.baofeng.com
++.a.baomihua.com
 +.resource.baomihua.com
 +.baremetrics.com
 +.basebanner.com
@@ -3252,6 +3261,7 @@ ad.player.baidu.com
 +.event.bblmw.com
 +.perf.bblmw.com
 +.bbqy4ihvz9.com
++.bc4zqavx5d.com
 +.baiducom.bj.bcebos.com
 +.dingbu.bj.bcebos.com
 +.gg88.bj.bcebos.com
@@ -3626,7 +3636,6 @@ log.byteoversea.com
 +.api-access.pangolin-sdk-toutiao1.com.w.cdngslb.com
 +.ads-i2.xhscdn.com.w.cdngslb.com
 +.ads-img-al.xhscdn.com.w.cdngslb.com
-+.ads-splash-i2.xhscdn.com.w.cdngslb.com
 +.ads-video-al.xhscdn.com.w.cdngslb.com
 +.ads3-normal-hl.zijieapi.com.w.cdngslb.com
 +.ads3-normal-lf.zijieapi.com.w.cdngslb.com
@@ -4088,6 +4097,7 @@ toblog.ctobsnssdk.com
 +.decisivedrawer.com
 +.sentry.deemos.com
 +.deepintent.com
++.deepseek404.com
 +.web2.deja.com
 +.gp.dejanews.com
 +.delicatecascade.com
@@ -4130,7 +4140,6 @@ toblog.ctobsnssdk.com
 +.ad.didi-food.com
 +.ad-log.didiglobal.com
 +.ads.didiglobal.com
-+.omgup.didiglobal.com
 +.sentry-us.didiglobal.com
 +.didtheyreadit.com
 +.digestiondrawer.com
@@ -4231,6 +4240,7 @@ toblog.ctobsnssdk.com
 +.drivethelife.com
 +.telemetry.dropbox.com
 +.telemetry.v.dropbox.com
++.go.drtuberlive.com
 +.drumcash.com
 +.ds8k3y2d5n.com
 +.dshsnxfcjwdhpe.com
@@ -4351,6 +4361,7 @@ log-verify.dutils.com
 +.ecoupons.com
 +.ecuc6mmwt.com
 +.edgexads.com
++.ediuschina.com
 +.et.educationdynamics.com
 +.widget.educationdynamics.com
 +.www.ee99654712225.com
@@ -4661,7 +4672,6 @@ catalog.fjwhcbsh.com
 +.mon11-misc-lf.fqnovel.com
 +.mon11-misc-lq.fqnovel.com
 +.mon3-misc-lf.fqnovel.com
-+.rtlog3-applog.fqnovel.com
 +.rtlog3-applog-hl.fqnovel.com
 +.rtlog3-applog-lf.fqnovel.com
 +.rtlog3-applog-lq.fqnovel.com
@@ -5233,6 +5243,7 @@ hexagon-analytics.com
 +.cloudi-sg.browser.heytapmobile.com
 +.i-sg.browser.heytapmobile.com
 +.iflow-sg.browser.heytapmobile.com
++.browser-api-th.heytapmobile.com
 +.api-gl.cdo.heytapmobile.com
 +.cloudconf-app-bd.heytapmobile.com
 +.cloudconf-app-eg.heytapmobile.com
@@ -5411,6 +5422,7 @@ ad-splash-tracking.hktvmall.com
 +.apm-log-upload-os.hoyoverse.com
 +.bh3-sdk-os-static.hoyoverse.com
 +.devlog-upload-os.hoyoverse.com
++.sentry.eks.hoyoverse.com
 +.hkrpg-log-upload-os.hoyoverse.com
 +.log-upload-os.hoyoverse.com
 +.sdk-log-upload-os.hoyoverse.com
@@ -5701,6 +5713,7 @@ sf16-static.i18n-pglstatp.com
 +.invvuu9js.com
 +.banner.inyourpocket.com
 +.inzy3qq8q.com
++.iotj6oo90.com
 +.iowj5jof2.com
 +.c81.ipanocloud.com
 +.iper2.com
@@ -5888,7 +5901,6 @@ knicks.jd.com
 +.jhhv22erzs.com
 +.jia183d6v.com
 +.ads.jianchiapp.com
-+.sentry.jiandaoyun.com
 +.acc.jiangsujiaxue.com
 +.jiankongbao.com
 +.tr.jianshu.com
@@ -6173,10 +6185,8 @@ log.stat.kugou.com
 +.kuk8.com
 +.h1.kukuw.com
 +.ocdn.ad.xelements.cn.w.kunlunaq.com
-+.adimage.bwton.com.w.kunluncan.com
 +.p3-ad-sign.byteimg.com.w.kunluncan.com
 +.img.adnyg.com.w.kunlungr.com
-+.web-sentry.kurogame.com
 +.adsrv.kurogames.com
 +.kuyun.com
 +.kve026cks7.com
@@ -6238,6 +6248,7 @@ log.stat.kugou.com
 +.lcgcrldp6m.com
 +.lcqbi7nsv.com
 +.lcrebbqmvlbtno.com
++.ld1qwww3kj.com
 +.mnqlog.ldmnq.com
 +.storeen.ldmnq.com
 +.rainbow-prod-jdlog.ldoverseas.com
@@ -6362,6 +6373,7 @@ outlookads.live.com
 +.lizardslaugh.com
 +.lj43bm3y8.com
 +.ljvt4pnl9.com
++.ljyzic8cr.com
 +.lk0v8teerw.com
 +.lk54dfg87.com
 +.lkmhn.com
@@ -6604,7 +6616,6 @@ adui.tg.meitu.com
 +.mgid.com
 +.mgky6yjwq.com
 +.ads.mgnetwork.com
-+.audit.aaa.mgtv.com
 mobile.da.mgtv.com
 +.ott-v0-al.data.mgtv.com
 +.ott.v1.data.mgtv.com
@@ -6874,7 +6885,6 @@ browser.events.data.msn.com
 +.mxauvrtdm.com
 +.mxh4h.com
 +.my1746vnm.com
-+.ads.api.my7v.com
 +.apiyd.my91app.com
 +.mya2pg8cdg.com
 +.api.myadsget.com
@@ -7104,6 +7114,7 @@ browser.events.data.msn.com
 +.o28wg9kq8i.com
 +.o333o.com
 +.o40d17vln.com
++.o522zsxbgf.com
 +.o5y2zd1lq8.com
 +.o6oxvugdl.com
 +.o6vmp2h9k0.com
@@ -7117,6 +7128,7 @@ browser.events.data.msn.com
 +.gtm.oasisfeng.com
 +.objecthero.com
 +.obscenesidewalk.com
++.obscj.com
 +.obsworks.com
 +.obv3epx22d.com
 +.oceancloudhosts.com
@@ -7334,6 +7346,7 @@ api-access.pangolin-sdk-toutiao5.com
 +.pbeldhnbk.com
 +.pbo8y8igrp.com
 +.pbterra.com
++.m.pc6.com
 +.pcmxcdjbgo.com
 +.pcpop.com
 +.pcupd.com
@@ -7618,6 +7631,7 @@ pkoplink.com
 +.qemh16ihyw.com
 +.hlok.qertewrt.com
 +.qezkdby1jj.com
++.qf21yrnmnk.com
 +.qf51ho9qtz.com
 +.qfc4ac1f6.com
 +.jspassport.ssl.qhimg.com
@@ -8287,7 +8301,6 @@ smetrics.samsung.com
 +.shinystat.com
 +.shiveringspot.com
 +.shiverscissors.com
-+.analysis.shixunsuda.com
 +.ads.shizmoo.com
 +.shockinggrass.com
 +.sentry.shoplazza.com
@@ -8864,7 +8877,6 @@ ws.tapjoyads.com
 +.ads.thestar.com
 +.thewavebeats.com
 +.thgh902ny.com
-+.sentry.things-x.com
 +.thinkitten.com
 +.thirdrespect.com
 +.thj36m3dm.com
@@ -8910,6 +8922,7 @@ business-api.tiktok.com
 +.a.tiyuxiu.com
 +.tjfskxz0t6.com
 +.tjfytech.com
++.tjsptech.com
 +.tk11rxjhvm.com
 +.tk71mu9u7.com
 +.tkbo.com
@@ -8942,7 +8955,7 @@ business-api.tiktok.com
 +.static.topxgun.com
 +.oas.toronto.com
 +.totemcash.com
-api.touch-moblie.com
++.touch-moblie.com
 +.touchclarity.com
 +.touclick.com
 +.toushibao.com
@@ -9025,6 +9038,7 @@ tnc3-aliec1.toutiaoapi.com
 +.tslkd9ygnh.com
 +.tsyndicate.com
 +.tt144jrfu.com
++.tt5omubqh.com
 +.ttdbh.com
 +.www.ttyyuuoo.com
 +.ifa.tube8live.com
@@ -9040,6 +9054,7 @@ tnc3-aliec1.toutiaoapi.com
 +.api.tusdk.com
 +.asdkd.tutuapp.com
 +.log.tutuapp.com
++.tuxcpf6pq.com
 +.tva4k92u14.com
 +.md.tvzhe.com
 +.tw6eg2vusa.com
@@ -9485,6 +9500,7 @@ o-sdk.mediation.unity3d.com
 +.kz-vcode-od.vivoglobal.com
 +.kz-vcode-or.vivoglobal.com
 +.mx-album-api.vivoglobal.com
++.mx-cota.vivoglobal.com
 +.mx-domaincfg.vivoglobal.com
 +.mx-err-up.vivoglobal.com
 +.mx-onrt-stsdk.vivoglobal.com
@@ -9695,6 +9711,7 @@ klink.volceapplog.com
 +.report-1.appmetrica.webvisor.com
 +.report-2.appmetrica.webvisor.com
 +.webxcdn.com
++.sentry-sa.weelife3d.com
 +.wefk2dgegr.com
 +.weh5lofraa.com
 +.weiakbtck.com
@@ -9868,6 +9885,7 @@ sdkapp.uve.weibo.com
 +.enappstat.xbext.com
 +.enstat.xbext.com
 +.xbold171e.com
++.sentry.xboxmechanichead.com
 +.xbtw.com
 +.xc5r5huxrr.com
 +.xclikgrueb.com
@@ -9937,8 +9955,6 @@ api.ssp.xcultur.com
 +.store.xiaohongshu.com
 +.t2.xiaohongshu.com
 +.adtrack.xiaojukeji.com
-+.omgup.xiaojukeji.com
-+.omgup1.xiaojukeji.com
 +.sentry.xiaomawang.com
 +.ad.xiaomi.com
 tracker.ai.xiaomi.com
@@ -9972,6 +9988,7 @@ data.mistat.india.xiaomi.com
 data.mistat.xiaomi.com
 +.stats.music.xiaomi.com
 +.appstore.pandora.xiaomi.com
++.box.pandora.xiaomi.com
 +.bss.pandora.xiaomi.com
 +.appstore.cdn.pandora.xiaomi.com
 +.image.cdn.pandora.xiaomi.com
@@ -10025,6 +10042,7 @@ adsebs.ximalaya.com
 +.logc-sg.tsd.xindong.com
 +.ichc1.xinglinpukang.com
 +.a2.xinhuanet.com
++.upaicdn.xinmei365.com
 +.xiti.com
 +.xiyouence.com
 +.xj380euzh.com
@@ -10413,6 +10431,16 @@ pcdn.yximgs.com
 +.zdh10251lo.com
 +.zdh10260lo.com
 +.zdh10261lo.com
++.zdh10270lo.com
++.zdh10271lo.com
++.zdh10280lo.com
++.zdh10281lo.com
++.zdh10290lo.com
++.zdh10291lo.com
++.zdh10300lo.com
++.zdh10301lo.com
++.zdh10310lo.com
++.zdh10311lo.com
 +.zdl4o6sp3.com
 +.sentry-monitor-new.zdmimg.com
 +.zdr6wn2f5.com
@@ -10989,6 +11017,7 @@ m.ad.zhangyue.com
 +.zwxtfp.icu
 +.zxwfcwm.icu
 +.sentry.bankneo.co.id
++.sentry.findaya.co.id
 +.jmacs-m.lazada.co.id
 +.msgacs-m.lazada.co.id
 +.sentry.mab.co.id
@@ -11114,6 +11143,7 @@ cdn.liftoff-creatives.io
 +.quickkoala.io
 +.recapture.io
 +.redshell.io
++.sentry.seekoo.io
 +.track.segmetrics.io
 +.simpleanalytics.io
 +.siteimproveanalytics.io
@@ -11207,6 +11237,7 @@ cdn.liftoff-creatives.io
 +.trackerfeed.ddxq.mobi
 +.inner-active.mobi
 +.mydas.mobi
++.miniapp.qiluyidian.mobi
 +.tianmu.mobi
 +.log.apk.v-mate.mobi
 +.videomate.mobi
@@ -11214,6 +11245,7 @@ cdn.liftoff-creatives.io
 +.ads.independent.com.mt
 +.ato.mx
 +.adserver.info7.mx
++.sentry-web.mexdin.mx
 +.jmacs-m.lazada.com.my
 +.msgacs-m.lazada.com.my
 +.site-p2p-ads.tngdigital.com.my
@@ -11368,7 +11400,7 @@ pixon.ads-pixiv.net
 +.chitika.net
 +.chshcms.net
 +.valf.atm.cp31.ott.cibntv.net
-pl.cp31.ott.cibntv.net
++.pl.cp31.ott.cibntv.net
 +.vali-g1.cp31.ott.cibntv.net
 +.yk-ssp-ad.cp31.ott.cibntv.net
 +.ykad-data.cp31.ott.cibntv.net
@@ -11565,6 +11597,7 @@ heads-ak.spotify.com.edgesuite.net
 +.openx.net
 +.sl-log.oray.net
 +.visit.oschina.net
++.ad.ourplay.net
 +.owneriq.net
 +.p7cloud.net
 +.pagechoice.net
@@ -11690,6 +11723,7 @@ statsigapi.net
 +.wt-eu02.net
 +.xianshangzixun.net
 +.alisgp-sentry.d.xiaomi.net
++.sentry.d.xiaomi.net
 +.api.device.xiaomi.net
 +.lxcdn.dl.files.xiaomi.net
 +.idmb.app.chat.global.xiaomi.net
@@ -11937,6 +11971,7 @@ metrika.yandex.ru
 +.4fshops.shop
 +.4fstores.shop
 +.51015kidpl.shop
++.bagmarket.shop
 +.blsatl.shop
 +.brwhome.shop
 +.celadon-earrings.shop
@@ -11961,6 +11996,7 @@ metrika.yandex.ru
 +.kidshomes.shop
 +.litslop.shop
 +.lopwds.shop
++.loreudkl.shop
 +.lpwsalo.shop
 +.lvuidh.shop
 +.ocbagmarket.shop
@@ -11995,7 +12031,6 @@ metrika.yandex.ru
 +.api.affiliations.site
 +.app-posthog.bi-sage.site
 +.api.bytegle.site
-+.api.firwinds.site
 +.kickoffo.site
 +.lbank.site
 +.news-cdn.site
@@ -12199,6 +12234,7 @@ edge.ads.twitch.tv
 +.ethan.wang
 +.pixel.watch
 +.momo.wiki
++.umami.thousandrealms.win
 +.6v4.work
 +.6v6.work
 g2.ganjing.world
