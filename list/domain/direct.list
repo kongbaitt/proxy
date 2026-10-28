@@ -3443,7 +3443,9 @@ amp-api.podcasts.apple.com
 +.init-p01st.push.apple.com
 +.init-s01st.push.apple.com
 +.sequoia.apple.com
+sh-pod1-smp-device.apple.com
 +.sh-pod2-smp-device.apple.com
+sh-pod3-smp-device.apple.com
 +.probe.siri.apple.com
 +.seed.siri.apple.com
 +.seed-sequoia.siri.apple.com

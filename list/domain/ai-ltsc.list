@@ -1,10 +1,12 @@
 +.arena.ai
++.artificialanalysis.ai
 +.cerebras.ai
 +.chutes.ai
 +.claude.ai
 +.clawhub.ai
 +.coderabbit.ai
 +.cohere.ai
++.commandcode.ai
 +.devin.ai
 +.dify.ai
 +.duck.ai
@@ -36,6 +38,7 @@
 +.x.ai
 +.youmind.ai
 +.claude.app
++.cline.bot
 +.windsurf.build
 +.chatgpt.livekit.cloud
 +.host.livekit.cloud
@@ -69,6 +72,7 @@ pplx-res.cloudinary.com
 +.codeium.com
 +.codeiumdata.com
 +.cohere.com
++.context7.com
 +.copilot.com
 +.copilot-stg.com
 +.coze.com
@@ -135,9 +139,11 @@ notebooklm-pa.googleapis.com
 +.magnific.com
 +.manuscdn.com
 +.marscode.com
++.metaaiusercontent.com
 +.metaaivm.com
 +.copilot.microsoft.com
 +.midjourney.com
++.nousresearch.com
 +.oaistatic.com
 +.oaistatsig.com
 +.oaiusercontent.com
