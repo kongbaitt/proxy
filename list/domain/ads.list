@@ -3063,7 +3063,6 @@ sv-video.play.aiseet.atianqi.com
 +.collect.babybus.com
 +.tjinit-event.babybus.com
 +.tjinit-global-register.babybus.com
-+.banners.babylon-x.com
 +.backbeatmedia.com
 +.backtension.com
 +.ime-ad-reporter.badambiz.com
@@ -4676,7 +4675,6 @@ catalog.fjwhcbsh.com
 +.freepay.com
 +.freestats.com
 +.banners.freett.com
-+.freewebcounter.com
 +.freewheel.com
 +.freezingbuilding.com
 +.frequentflesh.com
@@ -6236,6 +6234,7 @@ log.stat.kugou.com
 +.cherry.le.com
 +.stat.le.com
 +.lead02.com
++.leadclick.com
 +.leadingedgecash.com
 +.ld-analytics.leadongcdn.com
 +.leadspace.com
@@ -6399,6 +6398,7 @@ log-report.com
 +.a1.lshou.com
 +.lt3f9p5ox2.com
 +.ltdzz.com
++.offers.ltsc-has.com
 +.ltuzz346m.com
 +.lucidmedia.com
 +.luckyorange.com
@@ -6942,6 +6942,7 @@ browser.events.data.msn.com
 +.nappyattack.com
 +.nappyneck.com
 +.nar17stuqf.com
++.liquidad.narrowcastmedia.com
 +.nasimobi.com
 +.nastydollars.com
 +.navegg.com
@@ -8112,7 +8113,6 @@ events.redditmedia.com
 +.rtbadzesto.com
 +.rtbasia.com
 +.rtbflairads.com
-+.rtbpop.com
 +.rtbwave.com
 +.rtip4abjv3.com
 +.rtxplatform.com
@@ -9829,7 +9829,6 @@ sdkapp.uve.weibo.com
 +.wydk6zdk2.com
 +.wylct1tjdf.com
 +.wz2jy3t94.com
-+.x-traceur.com
 +.x01omk083.com
 +.x0b5edl6u.com
 +.x0lkimaixh.com
@@ -10742,9 +10741,11 @@ m.ad.zhangyue.com
 +.eventlog.jackpot.de
 +.jinkads.de
 +.ads.krawall.de
++.layer-ad.de
 +.layer-ads.de
 +.ligatus.de
 +.link-booster.de
++.links-ranking.de
 +.adnews.maddog2000.de
 +.madvertise.de
 +.utiq.manager-magazin.de
@@ -10853,7 +10854,6 @@ m.ad.zhangyue.com
 +.mediasquare.fr
 +.sbx.pagesjaunes.fr
 +.eule1.pmu.fr
-+.links.prosservice.fr
 +.pub.realmedia.fr
 +.openx.smcaen.fr
 +.openad.tf1.fr
@@ -10883,7 +10883,6 @@ m.ad.zhangyue.com
 +.toplista.mw.hu
 +.ad2.netriota.hu
 +.revive.netriota.hu
-+.adserver.otthonom.hu
 +.img.prohardver.hu
 +.reklamcsere.hu
 +.advert.dyna.ultraweb.hu
