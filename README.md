@@ -25,7 +25,7 @@
 
 裸核：约40～150MB(smart分支占用偏高)
 
-MRS：`966.33KB` `174062` (含dnsmasq-china DNS分流规则)
+MRS：`966.17KB` `174063` (含dnsmasq-china DNS分流规则)
 
 ### 更新日志
 
@@ -89,12 +89,12 @@ dist-lxgwwenkai-only.zip `5.60MB`
 
 - cn：[cn-lite](https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn-lite.list) + [备案域名](https://www.nodeseek.com/post-464238-1)  
   国内域名规则  
-  Update：`2026.11.16` `32700`  
+  Update：`2026.11.20` `32704`  
   规则链接：[list](https://raw.githubusercontent.com/kongbaitt/proxy/main/list/domain/cn.list) / [mrs](https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/cn.mrs)
 
 - direct：cn + [games-cn](https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/games-cn.list) + [apple-cn](https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.list) + [microsoft-cn](https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/microsoft-cn.list) + [private](https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/private.list) + [增加](https://github.com/kongbaitt/proxy/blob/main/work/list/direct_add_domain.list) - [删除](https://github.com/kongbaitt/proxy/blob/main/work/list/direct_del_domain.list)
   直连域名规则  
-  Update：`2026.11.17` `33113`  
+  Update：`2026.11.20` `33117`  
   规则链接：[list](https://raw.githubusercontent.com/kongbaitt/proxy/main/list/domain/direct.list) / [mrs](https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/direct.mrs)
 
 - dnsmasq-china：[dnsmasq-china](https://github.com/felixonmars/dnsmasq-china-list)  
@@ -129,12 +129,12 @@ dist-lxgwwenkai-only.zip `5.60MB`
 
 - cn_ip：[china-operator-ip](https://gaoyifan.github.io/china-operator-ip/china46.txt) + [苍狼山庄](https://ispip.clang.cn) + [metowolf/iplist](https://raw.githubusercontent.com/metowolf/iplist/master/data/special/china.txt) + [zhufengme/block_cn_files](https://raw.githubusercontent.com/zhufengme/block_cn_files/master/cn_ip_list.txt)  
   国内IP规则  
-  Update：`2026.11.19` `10063`  
+  Update：`2026.11.20` `10064`  
   规则链接：[list](https://raw.githubusercontent.com/kongbaitt/proxy/main/list/ip/cn.list) / [mrs](https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/ip/cn.mrs)
 
 - direct_ip：cn_ip + 'enhanced-FaaS-in-China_ip' + [private_ip](https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/privateip.list)  
   直连IP规则  
-  Update：`2026.11.19` `10106`  
+  Update：`2026.11.20` `10106`  
   规则链接：[list](https://raw.githubusercontent.com/kongbaitt/proxy/main/list/ip/direct.list) / [mrs](https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/ip/direct.mrs)
 
 谨慎引用！lite规则：
@@ -146,12 +146,12 @@ dist-lxgwwenkai-only.zip `5.60MB`
 
 - direct-lite：direct - ads - proxy@direct - proxy  
   精简直连域名规则  
-  Update：`2026.11.16` `32520`  
+  Update：`2026.11.20` `32524`  
   规则链接：[list](https://raw.githubusercontent.com/kongbaitt/proxy/main/list/domain/direct-lite.list) / [mrs](https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/direct-lite.mrs)
 
 - dnsmasq-china-lite：'dnsmasq-china' - ads - proxy@direct - proxy - direct  
   精简dnsmasq-china域名规则  
-  Update：`2026.11.16` `95536`  
+  Update：`2026.11.20` `95533`  
   规则链接：[list](https://raw.githubusercontent.com/kongbaitt/proxy/main/list/domain/dnsmasq-china-lite.list) / [mrs](https://raw.githubusercontent.com/kongbaitt/proxy/main/mrs/domain/dnsmasq-china-lite.mrs)
 
 更多规则推荐：
