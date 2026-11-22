@@ -23,6 +23,7 @@
 +.hsbc.com.bh
 +.binancezh.biz
 +.bybit.biz
++.twitter.biz
 +.bnappweb.black
 +.hsbc.bm
 +.hsbc.com.br
@@ -55,12 +56,15 @@
 +.platov.co
 +.rsk.co
 +.saasexch.co
++.t.co
 +.theblock.co
++.vine.co
 +.4epenaxa.com
 +.aave.com
 +.ablmm.com
 +.aboutschwab.com
 +.accountpaypal.com
++.ads-twitter.com
 +.agdbank.com
 +.agri-bank.com
 +.alefbank.com
@@ -113,6 +117,7 @@ zftksc.launches.appsflyersdk.com
 +.cash2.com
 +.cashify.com
 +.ru.ccb.com
++.cms-twdigitalassets.com
 +.coinbase.com
 +.coindesk.com
 +.coingate.com
@@ -374,6 +379,7 @@ straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
 +.swiftcapital.com
 +.swiftfinancial.com
 +.tbank-online.com
++.tellapart.com
 +.thepaypalshop.com
 +.thinkorswim.com
 +.thirdweb.com
@@ -386,6 +392,16 @@ straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
 +.transferwise.com
 +.trustwallet.com
 +.tuncommercialbank.com
++.tweetdeck.com
++.twimg.com
++.twitpic.com
++.twitter.com
++.twittercommunity.com
++.twitterflightschool.com
++.twitterinc.com
++.twitteroauth.com
++.twttr.com
++.twvid.com
 +.ubs.com
 +.venmo.com
 +.venmo-touch.com
@@ -403,6 +419,7 @@ straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
 +.wiseid.com
 +.wisekey.com
 +.wwwxoom.com
++.x.com
 +.xiaohu8.com
 +.xoom.com
 +.xoom-experience.com
@@ -636,6 +653,7 @@ deribit.cdn.prismic.io
 +.paypal.jp
 +.smtb.jp
 +.sonybank.jp
++.twitter.jp
 +.binancezh.kim
 +.coinone.co.kr
 +.hsbc.co.kr
@@ -694,6 +712,7 @@ deribit.cdn.prismic.io
 d3r7nsslvs6aaf.cloudfront.net
 +.coinalyze.net
 +.reddit.map.fastly.net
++.twitter.map.fastly.net
 +.filipino-music.net
 +.hbfile.net
 +.hsbc.net
@@ -723,6 +742,8 @@ standchartbank.tt.omtrdc.net
 +.stripe-terminal-local-reader.net
 +.swiftfinancial.net
 +.theshoppingexpresslane.net
++.twtrdns.net
++.twttr.net
 +.venmo.net
 +.yandex-bank.net
 +.bisq.network
@@ -1105,6 +1126,8 @@ bybit.ada.support
 +.briantreepayments.tv
 +.gate.tv
 +.paypalhere.tv
++.periscope.tv
++.pscp.tv
 +.pypl.tv
 +.hsbc.com.tw
 +.hsbc.co.uk
@@ -1118,6 +1141,7 @@ bybit.ada.support
 +.paypal-login.us
 +.paypal-signin.us
 +.swiftbank.us
++.twitterstat.us
 +.www-paypal.us
 +.xoom.us
 +.hsbc.com.uy
